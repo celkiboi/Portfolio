@@ -1,0 +1,70 @@
+.service-logos {
+    width: 80%; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+@media (max-width: 600px) {
+    .service-logos {
+        width: 90%; 
+        max-width: 300px; 
+    }
+}
+
+.c-lang, .cs-lang, .kotlin-lang, .python-lang, .html-lang, .github {
+    margin-bottom: 3vh;
+    border-bottom: 2px solid rgb(0, 181, 253);
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('Cascadia.ttf') format('ttf'),
+         url('Cascadia.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Cascadia Code', monospace;
+    background-color: #000000;
+}
+
+h1, h2, h3, h4, p {
+    font-family: 'Cascadia Code', monospace;
+    color: white;
+}
+
+#name {
+    color: rgb(0, 181, 253);
+}
+
+#faculty {
+    color: rgb(252, 164, 2)
+}
+
+a {
+    color: rgb(0, 181, 253);
+}
+
+a:visited {
+    color: rgb(0, 181, 253);
+}
+
+.intro {
+    border-bottom: 5px ridge rgb(0, 181, 253);
+    margin-bottom: 3vh;
+}
+
+#welcome {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
